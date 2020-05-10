@@ -1,0 +1,31 @@
+.dice1 {
+    height: 50px;
+    width: 100px;
+}
+
+.dice {
+    height: 50px;
+    width: 100px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+}
+
+.dot {
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0 solid rgba(0, 0, 0, 0.8);
+    padding: 1x;
+    font-size: 30px;
+    text-align: center;
+}
+
+.dot-el {
+    height: 25px;
+    width: 25px;
+    color: rgb(138, 138, 138);
+    background-color: rgb(138, 138, 138);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {}
