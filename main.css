@@ -1,29 +1,69 @@
+.randomizer-menu
+{
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.game-title
+{
+    font-size: 20px;
+}
+
+.dice-button
+{
+    text-align: center;
+    border-style: none;
+    padding: 3px;
+    height: 100px;
+    width: 140px;
+    background-color:cornflowerblue;
+}
+
+.result-panel
+{
+    text-align: center;
+}
+.act-result
+{
+    font-size: 27px;
+}
+.results-history
+{
+    display: flex;
+    font-size: 24px;
+    overflow: auto;
+}
+
 .dice1 {
     height: 50px;
     width: 100px;
 }
 
 .dice {
-    height: 50px;
-    width: 100px;
+    padding: 40px;
+    justify-content: center;
+    height: auto;
+    width: auto;
     display: grid;
+    text-align: center;
     grid-template-columns: 50px 50px 50px;
 }
 
 .dot {
     height: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     border: 0 solid rgba(0, 0, 0, 0.8);
-    padding: 1x;
     font-size: 30px;
     text-align: center;
 }
 
 .dot-el {
+    margin-top: 8px;
+    padding: 1px;
     height: 25px;
     width: 25px;
-    color: rgb(138, 138, 138);
-    background-color: rgb(138, 138, 138);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     display: inline-block;
 }
